@@ -39,8 +39,27 @@ ul li{list-style: none;}
     background: -ms-linear-gradient(-45deg, rgba(77,189,254,1) 0%, rgba(62,160,230,1) 100%);
     background: linear-gradient(135deg, rgba(77,189,254,1) 0%, rgba(62,160,230,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dbdfe', endColorstr='#3ea0e6', GradientType=1 );
-    padding-top: 60px;
+    padding-top: 10px;
     padding-bottom: 145px;
+    color: #fff;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav-items {
+    display: flex;
+    justify-content: flex-end;    
+}
+
+.main-menu-item {
+    margin-left: 15px;    
+}
+
+.main-menu-item a {
     color: #fff;
 }
 
