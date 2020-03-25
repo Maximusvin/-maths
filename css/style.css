@@ -118,10 +118,6 @@ p {
     background: #d6b223;
 }
 
-.btn-form:hover {
-    background: #d6b223;
-}
-
 .desctop {
     width: 400px;    
 }
@@ -162,6 +158,10 @@ margin-right: 50px;
     margin-top: 30px;
 }
 
+.btn-introduction:hover {
+    background: #d6b223;
+}
+
 .procrastination {
     background: #ecf3f8;
     padding-top: 70px;
@@ -177,8 +177,7 @@ margin-right: 50px;
 
 
 .procrastination-item {
-    text-align: center;
-    margin-top: 70px;
+    text-align: center;    
     width: 300px;
 }
 
