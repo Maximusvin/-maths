@@ -129,10 +129,37 @@ p {
 /* MAIN container */
 .introduction {
     padding-top: 70px;
-    padding-bottom: 70px;
-    background-image: url(../img/img.png);
-    background-repeat: no-repeat;  
-    background-position: 0 center;      
+    padding-bottom: 70px;    
+}
+
+.introduction-img {
+width: 250px;
+margin-right: 50px;
+}
+
+.introduction-img2 {
+    width: 300px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.introduction-text2 {
+    margin-top: 50px;
+}
+
+.btn-introduction {
+    font-family: 'Montserrat';
+    font-weight: 900;
+    background: #ffd429;
+    color: #2e2a1b;
+    display: block;
+    width: 220px;
+    padding: 19px 0;
+    text-align: center;
+    margin-top: 40px;   
+    transition: all 0.5s ease; 
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .procrastination {
@@ -174,10 +201,17 @@ p {
     text-align: center;
 }
 
+.xmind2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url(../img/bg.png);      
+    background-size: cover;   
+}
+
 .video {
     margin-top: 50px;   
     margin: 0 auto;   
-    width: 570px;     
+    width: 570px;         
 }
 
 .footer {
