@@ -8,12 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans|Ubuntu:700&display=swap&subset=cyrillic" rel="stylesheet" />
 </head>
 <body>
-    <header class="header">
+
+  <!-- HEAD container -->
+    <header class="header-conteiner">
         <div class="container">
           <nav class="main-nav">
             <img src="./img/logo.png" alt="Логотип" class="logo" />
             <ul class="main-nav-items">
-              <li class="main-menu-item"><a href="#">Прокрастинація</a></li>
+              <li class="main-menu-item"><a href="#procrastination">Прокрастинація</a></li>
               <li class="main-menu-item"><a href="#">Прокрастинація2</a></li>
               <li class="main-menu-item"><a href="#">Прокрастинація3</a></li>
               <li class="main-menu-item"><a href="#">Прокрастинація4</a></li>
@@ -21,24 +23,89 @@
             </ul>
           </nav>
             <div class="wrapper">
-              <ul class="offer">
+              <ul class="description">
                 <li class="title">
-                  <h1>Домашня робота команди FSDev по мотивам книги:<br>
-                    <span>Думай як математик</span>
+                  <h1>Домашня робота команди FSDev за мотивами книги:<br>
+                    <span class="title-book">"Думай як математик"</span>
                   </h1>
                 </li>
                 <li class="intro">
                   <p>
-                    Мы,команда учеников 21 потока курса fullstack web developer GoIT, изучив книгу вдоль и поперёк, теперь знаем КАК РЕШАТЬ ЛЮБЫЕ ЗАДАЧИ БЫСТРЕЕ И ЭФФЕКТИВНЕЕ! Хочешь узнать и ты?                    
+                    Ми, команда студентів 21 потока курсу FullStack developer GoIT, вивчивши книгу вздовж та впоперек, чітко знаємо:<br> <b>ЯК ВИРІШУВАТИ ЗАДАЧІ ШВИДШЕ ТА ЕФЕКТИВНІШЕ!</b><br >
+                    Хочеш знати і ти?                    
                   </p>
                 </li>
                 <li class="button">
-                  <a href="#" class="btn">Тогда ЖМИ здесь!</a>
+                  <a href="#procrastination" class="btn">ЖМИ тут!</a>
                 </li>
               </ul>
               <img src="./img/maths.png" alt="Книга Думай как математик" class="desctop" width="400"/>
             </div>
           </div>
     </header>
+
+  <!-- MAIN container --> 
+  <main class="main-container">
+    <section class="procrastination" id="procrastination">
+      <div class="container">
+          <h2 class="section-title">Прокрастинація</h2>
+          <div class="wrapper">
+              <ul class="procrastination-item">
+                  <li class="img">
+                      <img src="./img/icon1.png" alt="Первая иконка">
+                  </li>
+                  <li>
+                      <h3>Концентрація</h3>
+                  </li>
+                  <li>
+                      <p>Концентруйте увагу на самому процесі роботи, а не на кінцевому  результаті</p>
+                  </li>
+              </ul>
+              <ul class="procrastination-item">
+                  <li class="img">
+                      <img src="./img/icon2.png" alt="Вторая иконка">
+                  </li>
+                  <li>
+                      <h3>План</h3>
+                  </li>
+                  <li>
+                      <p>Потрібен чіткий план дій. Це ключ до позитивних змін.</p>
+                  </li>
+              </ul>
+              <ul class="procrastination-item">
+                  <li class="img">
+                      <img src="./img/icon3.png" alt="Третья иконка">
+                  </li>
+                  <li>
+                      <h3>Ціль</h3>
+                  </li>
+                  <li>
+                      <p>Заплющ очі та думайте про ціль. Це допомагає відволіктись від попередніх шаблонів мислення</p>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </section>
+
+  <section class="xmind" id="xmind">
+    <div class="container">
+      <h2 class="section-title">Ментальна карта</h2>
+      <div class="xmind-list">
+        <iframe src='https://www.xmind.net/embed/WfBkNu/' width='1050' height='740' frameborder='0' scrolling='no' allowfullscreen="true"></iframe>
+      </div>
+    </div>  
+  </section>
+      
+  </main>
+
+  <!-- FOOTER container -->
+  <footer class="footer">
+    <div class="container">
+        <p>© FSDev - ми крутіші, ніж здається!<br>
+        2020 рік
+        </p>
+
+    </div>
+  </footer>
 </body>
 </html>
