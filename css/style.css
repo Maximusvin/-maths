@@ -177,13 +177,13 @@ p {
 	.container {
 		width: 960px;
     }
-    .offer {
+    .description {
         margin-top: 100px;        
     }
     .desctop {        
         margin-top: 30px;
     }
-    .header {
+    .header-conteiner {
     padding-bottom: 125px;
     }
 }
@@ -197,7 +197,7 @@ p {
 	.wrapper {
 		flex-direction: column;
 	}
-	.offer {
+	.description {
         width: 100%;  
         margin-top: 75px;      
 	}
@@ -209,7 +209,7 @@ p {
 	    width: 60%;
 	    margin: 0 auto 0;
 	}
-	.development-item {
+	.procrastination-item {
 		width: auto;
         margin-bottom: 30px;
         margin-top: 50px;
@@ -223,9 +223,7 @@ p {
     .section-title {
         margin-bottom: 40px;
     }
-    .form {
-        margin-top: 30px;
-    }
+   
 }
 
 
@@ -240,9 +238,7 @@ p {
 	.btn {		
 	    width: 80%;
     }
-    .form {
-        margin-top: 10px;
-    }
+   
 }
 
 /* 320px - 576px */
@@ -262,10 +258,6 @@ p {
     .btn-form {		
 	    width: 100%;
     }
-    .form-center {
-        display: block;
-    }
-    .form input {
-        width: 100%;
-    }
+ 
+   
 }
