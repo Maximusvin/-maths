@@ -107,6 +107,11 @@ p {
   justify-content: space-between;
 }
 
+.wrapper-section {
+  display: flex;
+  margin-top: 30px;
+}
+
 .description {
   margin-top: 50px;
   width: 570px;
@@ -175,13 +180,9 @@ p {
   margin-left: 50px;
   margin-top: 65px;
 }
-.introduction-text {
-  width: 65%;
-}
 
 .introduction-text2 {
   margin-top: 50px;
-  width: 65%;
 }
 
 .btn-introduction {
@@ -193,10 +194,9 @@ p {
   width: 220px;
   padding: 19px 0;
   text-align: center;
-  margin-top: 40px;
   transition: all 0.5s ease;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .btn-introduction:hover {
@@ -226,7 +226,6 @@ p {
 .xmind {
   padding-top: 70px;
   padding-bottom: 70px;
-  background: #ecf3f8;
 }
 
 .xmind-list {
@@ -250,14 +249,31 @@ p {
 .recommendation {
   padding-top: 70px;
   padding-bottom: 70px;
+  background: #ecf3f8;
 }
 
 .section-subtitle {
+  box-sizing: border-box;
   font-size: 18px;
   font-weight: 500;
   text-align: leftr;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-transform: uppercase;
+}
+
+.img-flex {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.list-item {
+  list-style: circle;
+  margin-bottom: 7px;
+  margin-left: 15px;
+}
+.recommendation-sublist > li {
+  margin-left: 50px;
 }
 
 .footer {
@@ -267,15 +283,6 @@ p {
   color: #fff;
   text-align: center;
   font-size: 14px;
-}
-
-.l2 {
-  list-style: circle;
-  margin-left: 30px;
-}
-
-.l2 {
-  margin-left: 30px;
 }
 
 /*Responsive*/
