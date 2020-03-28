@@ -1,510 +1,477 @@
 <!DOCTYPE html>
 <html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FSDev: Думай як математик</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans|Ubuntu:700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FSDev: Думай як математик</title>
-  <link rel="stylesheet" href="./css/style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans|Ubuntu:700&display=swap&subset=cyrillic"
-    rel="stylesheet" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-</head>
-
-<body>
-  <!-- HEADer container -->
-  <header class="header-conteiner">
-    <div class="container">
-      <!-- NAVIGATION container -->
-      <nav class="main-nav">
-        <img src="./img/logo1.png" alt="Логотип" class="logo" />
-        <ul class="main-nav-items">
-          <li class="main-menu-item"><a href="#introduction">Вступ</a></li>
-          <li class="main-menu-item"><a href="#problems">Проблеми</a></li>
-          <li class="main-menu-item"><a href="#recommendation">Поради</a></li>
-          <li class="main-menu-item"><a href="team.html">Джедаї</a></li>
-        </ul>
-      </nav>
-
-      <!-- DESCRIPTION container -->
-      <div class="wrapper">
-        <ul class="description">
-          <li class="description-head">
-            <p class="description-head-p">
-              Домашня робота команди FSDev за мотивами книги:
-            </p>
-            <h1 class="title-book">"Думай як математик"</h1>
-          </li>
-          <li class="description-intro">
-            <p>
-              Ми, команда студентів 21 потоку курсу FullStack developer GoIT, вивчивши книгу вздовж та впоперек, чітко
-              знаємо:<br />
-              <b>ЯК ВИРІШУВАТИ ЗАДАЧІ ШВИДШЕ ТА ЕФЕКТИВНІШЕ!</b><br />
-              Хочеш знати і ти?
-            </p>
-          </li>
-          <li class="button">
-            <a href="#introduction" class="btn">ТИСНИ тут!</a>
-          </li>
-        </ul>
-        <img src="./img/maths.png" alt="Книга Думай как математик" class="desctop" width="400" />
-      </div>
-    </div>
-  </header>
-
-  <!-- MAIN container -->
-  <main class="main-container">
-    <!-- INTRODUCTION container -->
-    <section class="introduction" id="introduction">
+  <body>
+    <!-- HEADer container -->
+    <header class="header-conteiner">
       <div class="container">
-        <h2 class="section-title">Як запустити свій мозок на повну?</h2>
+        <!-- NAVIGATION container -->
+        <nav class="main-nav">
+          <img src="./img/logo1.png" alt="Логотип" class="logo" />
+          <ul class="main-nav-items">
+            <li class="main-menu-item"><a href="#introduction">Вступ</a></li>
+            <li class="main-menu-item"><a href="#efficiency">Ефективність</a></li>
+            <li class="main-menu-item"><a href="#chapter-2">Проблеми</a></li>
+            <li class="main-menu-item"><a href="#recommendation">Поради</a></li>
+            <li class="main-menu-item"><a href="team.html">Джедаї</a></li>
+          </ul>
+        </nav>
+
+        <!-- DESCRIPTION container -->
         <div class="wrapper">
-          <div>
-            <img src="./img/img1.png" width="250" height="305" alt="" class="introduction-img" />
-          </div>
-          <div class="introduction-text">
-            <p>
-              Запам’ятовування, нерозуміння теми, страх перед новим, перенапруга …
-            </p>
-            <p>
-              Кожен із нас має внутрішній потенціал, щоб засвоїти будь-які знання. Головне — навчитися вчитися й
-              запустити свій мозок на
-              повну. Навіть більше: одноманітний і цілеспрямований рух до розв’язання проблеми — не завжди найкращий
-              шлях. Інколи варто
-              зробити крок назад, щоб поглянути на завдання з іншого боку, запустити свою креативність, навіть якщо ви
-              працюєте над
-              розв’язанням математичної задачі.
-            </p>
-            <p>
-              "Думай як математик" - це книга, яка навчить вас вчитися. Вона про людину, яка на власному досвіді
-              показала, що все можливо,
-              якщо у вас є бажання і мотивація, про те, як потрібно мислити, щоб досягати успіху і які конкретні кроки
-              для цього необхідно
-              робити. Автор знає, як багато чинників впливає при засвоєнні матеріалу і не забуває згадати про те, чого
-              потрібно уникати в
-              процесі навчання.
-            </p>
-          </div>
-        </div>
-        <div class="wrapper">
-          <div class="introduction-text2">
-            <p>
-              Ідея у Барбари Оаклі проста - ми не любимо щось тільки тому, що не розуміємо цього. Варто тільки досягти
-              розуміння і процес
-              навчання починає приносити задоволення. Ви обов'язково це відчуєте на особистому досвіді, головне
-              дотримуватися основних
-              порад, які ви отримаєте в процесі читання.
-            </p>
-            <p>
-              Ознайомившись з цією книгою ви навряд чи скажете, що витратили час даремно. Досвід студентів і викладачів,
-              викладений на
-              сторінках цієї книги, допоможе вам успішно справлятися з епідемією сьогоднішнього дня - прокрастинацією,
-              можливо навіть
-              значення цього слова стане для вас маленьким відкриттям!
-            </p>
-            <p>
-              Ми - команда людей, які вирішили розібратися в даному питанні самі та допомогти розібратися і вам. Ми
-              розробили невеликий
-              путівник по книзі і якщо ви хочете навчитися думати, як математик, то скоріше тисніть на кнопку нижче!
-            </p>
-          </div>
-          <div>
-            <img src="./img/img2.png" class="introduction-img2" width="300" height="300" alt="" />
-          </div>
-        </div>
-        <div class="button-introduction">
-          <a href="#recommendation" class="btn-introduction">Читати далі</a>
+          <ul class="description">
+            <li class="description-head">
+              <p class="description-head-p">
+                Домашня робота команди FSDev за мотивами книги:
+              </p>
+              <h1 class="title-book">"Думай як математик"</h1>
+            </li>
+            <li class="description-intro">
+              <p>
+                Ми, команда студентів 21 потоку курсу FullStack developer GoIT, вивчивши книгу вздовж та впоперек, чітко знаємо:<br />
+                <b>ЯК ВИРІШУВАТИ ЗАДАЧІ ШВИДШЕ ТА ЕФЕКТИВНІШЕ!</b><br />
+                Хочеш знати і ти?
+              </p>
+            </li>
+            <li class="button">
+              <a href="#introduction" class="btn">ТИСНИ тут!</a>
+            </li>
+          </ul>
+          <img src="./img/maths.png" alt="Книга Думай как математик" class="desctop" width="400" />
         </div>
       </div>
-    </section>
+    </header>
 
-    <!-- Work Mykola -->
-    <section class="section-problems" id="problems">
-      <div class="container">
-        <h2 class="section-title">
-          Як навчитися вирішувати будь-які завдання швидше та ефективніше?
-        </h2>
-        <section class="wrapper">
-          <img src="img/start.png" alt="Started" width="421" height="283">
-          <div class="problems-border-left">
-            <h3>Головне - почати!</h3>
-            <ol class="problems-item">
-              <li>
-                <p>Дивіться на навчання, як на пригоду, а не на важку працю.</p>
-              </li>
-              <li>
-                <p>Перед початком вивчення нового матеріалу перегляньте основні
-                  моменти. Це допоможе створити нейронні зачіпки для сприйняття,
-                  полегшить засвоєння матеріалу.</p>
-              </li>
-              <li>
-                <p>Успіх підштовхує нас рухатися і це веде до нових успіхів.</p>
-              </li>
-            </ol>
+    <!-- MAIN container -->
+    <main class="main-container">
+      <!-- INTRODUCTION container -->
+      <section class="introduction" id="introduction">
+        <div class="container">
+          <h2 class="section-title">Як запустити свій мозок на повну?</h2>
+          <div class="wrapper">
+            <div>
+              <img src="./img/img1.png" width="250" height="305" alt="" class="introduction-img" />
+            </div>
+            <div class="introduction-text">
+              <p>
+                Запам’ятовування, нерозуміння теми, страх перед новим, перенапруга …
+              </p>
+              <p>
+                Кожен із нас має внутрішній потенціал, щоб засвоїти будь-які знання. Головне — навчитися вчитися й запустити свій мозок на
+                повну. Навіть більше: одноманітний і цілеспрямований рух до розв’язання проблеми — не завжди найкращий шлях. Інколи варто
+                зробити крок назад, щоб поглянути на завдання з іншого боку, запустити свою креативність, навіть якщо ви працюєте над
+                розв’язанням математичної задачі.
+              </p>
+              <p>
+                "Думай як математик" - це книга, яка навчить вас вчитися. Вона про людину, яка на власному досвіді показала, що все можливо,
+                якщо у вас є бажання і мотивація, про те, як потрібно мислити, щоб досягати успіху і які конкретні кроки для цього необхідно
+                робити. Автор знає, як багато чинників впливає при засвоєнні матеріалу і не забуває згадати про те, чого потрібно уникати в
+                процесі навчання.
+              </p>
+            </div>
           </div>
-        </section>
-        <section class="wrapper">
-          <div class="problems-border-right">
-            <h3>Чергуйте сфокусоване і розсіяне мислення</h3>
-            <ol class="problems-item">
-              <li>
-                <p>
-                  Сфокусоване мислення - посилена зосередженість на конкретному
-                  завданні або понятті
-                </p>
-              </li>
-              <li>
-                <p>
-                  Розсіяне мислення - корисне для розуміння загальної
-                  картини(відбувається, коли виконуються фізичні вправи, рутинні
-                  заняття, сон-особливо фаза швидкого сну,..)
-                </p>
-              </li>
-            </ol>
-            <h4>Важливо!</h4>
-            <p>
-              Для істотного прогресу відпочинок між періодами сфокусованого мислення
-              зазвичай повинен тривати декілька годин, однак, не повинен бути надто
-              тривалим - інакше вже знайдені рішення вивітряться з голови до
-              наступного сфокусованого стану. Практика показує, що при вивченні нових
-              понять краще повернутися до них не пізніше ніж через один день. Саме
-              тому потрібно уникати прокрастинації.
-            </p>
+          <div class="wrapper">
+            <div class="introduction-text2">
+              <p>
+                Ідея у Барбари Оаклі проста - ми не любимо щось тільки тому, що не розуміємо цього. Варто тільки досягти розуміння і процес
+                навчання починає приносити задоволення. Ви обов'язково це відчуєте на особистому досвіді, головне дотримуватися основних
+                порад, які ви отримаєте в процесі читання.
+              </p>
+              <p>
+                Ознайомившись з цією книгою ви навряд чи скажете, що витратили час даремно. Досвід студентів і викладачів, викладений на
+                сторінках цієї книги, допоможе вам успішно справлятися з епідемією сьогоднішнього дня - прокрастинацією, можливо навіть
+                значення цього слова стане для вас маленьким відкриттям!
+              </p>
+              <p>
+                Ми - команда людей, які вирішили розібратися в даному питанні самі та допомогти розібратися і вам. Ми розробили невеликий
+                путівник по книзі і якщо ви хочете навчитися думати, як математик, то скоріш листайте нижче!
+              </p>
+            </div>
+            <div>
+              <img src="./img/img2.png" class="introduction-img2" width="300" height="300" alt="" />
+            </div>
           </div>
-          <img src="img/hackmind.png" alt="Hackmind" width="234" height="281">
-        </section>
-        <section class="wrapper">
-          <img src="img/elephant.png" alt="Elephant" width="281" height="281">
-          <div class="problems-border-left">
-            <h3>Формуйте порції інформації</h3>
-            <ol class="problems-item">
-              <li>
-                <p>
-                  Зосередитиьте увагу на інформації, яку ви хочете об'єднати в
-                  порцію,зрозумійте основну ідею
-                </p>
-              </li>
-              <li>
-                <p>
-                  Знайдіть метафору або порівняння (складні терміни та поннятя поясни
-                  простими зрозумілими словами)
-                </p>
-              </li>
-              <li>
-                <p>
-                  Накопичуйте контекст, щоб знати не тільки те, як застосовувати дану
-                  порцію інформації, але і те, в який момент її застосовувати
-                </p>
-              </li>
-              <li>
-                <p>
-                  Практикуйте згадування матеріалу-це набагато ефективніше
-                  перечитування
-                </p>
-              </li>
-            </ol>
-            <h4>Примітка!</h4>
-            <p>
-              Формування порцій допомагає збільшити обсяг доступної робочої пам'яті
-            </p>
-          </div>
-        </section>
-        <section class="wrapper">
-          <div class="problems-border-right">
-            <h3>Вдосконалюйте пам'ять</h3>
-            <ol class="problems-item">
-              <li>
-                <p>Техніка візуалізації</p>
-                <ul>
-                  <li>
-                    Перетворюйте складне на просте і зрозуміле, вигадуй
-                    контекст(асоціації,метафори,аналогії)
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <p>Інтервальні повторення</p>
-                <ul>
-                  <li>
-                    Повторюємо матеріал зранку та перед сном</li>
-                </ul>
-              </li>
-              <li>
-                <p>М'язова пам'ять</p>
-                <ul>
-                  <li>
-                    Пишіть конспекти від руки,читайте задачу вголос, дискутуйте з
-                    собою під час читання тексту
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <p>Фізичні вправи</p>
-                <ul>
-                  <li>
-                    Регулярні фізичні вправи - це нові нейрони у ділянках, що
-                    пов'язані з пам'ятю та нові сигнальні шляхи
-                  </li>
-                </ul>
-              </li>
-            </ol>
-          </div>
-          <img src="img/memory.png" alt="Memory" width="358" height="281">
-        </section>
-        <section class="wrapper">
-          <img src="img/book.png" alt="Book" width="235" height="281">
-          <div class="problems-border-right">
-            <h3>Використовуйте екзамени і тести собі на користь</h3>
-            <ol class="problems-item">
-              <li>
-                <p>
-                  Будь-який тест сам по собі - потужний навчальний досвід. Він
-                  реорганізовує знання і додає до них нові, а також відчутно покращує
-                  здатність утримувати матеріал в пам'яті
-                </p>
-              </li>
-              <li>
-                <p>
-                  Метод «спочатку складне, потім просте» дозволяє мозку працювати над
-                  важкими завданнями навіть тоді, коли ви фокусуєтеся на інших, більш
-                  простих завданнях
-                </p>
-              </li>
-              <li>
-                <p>
-                  В день перед іспитом не вчіть багато матеріалу, обов'язково
-                  висипайтесь.
-                </p>
-              </li>
-            </ol>
-          </div>
-        </section>
-      </div>
-    </section>
+        </div>
+      </section>
 
-    <!-- Work Dmitrij -->
-    <section class="section" id="chapter-2">
-      <div class="container">
-        <h2 class="section-title"> Що заважає запустити ваш мозок на повну&#63; </h2>
-
-        <div class="box-content">
-          <div class="box__img">
-            <img width="146px" height="100px" src="./img/img3.png" alt="image">
-          </div>
-
-          <ul class="box__list">
-            <li>
-              <h3 class="box__subtitle">Прокрастинація</h3>
-            </li>
-
-            <li class="box__item">
-              Ми прокрастинуємо відносно того, що нам не приємно,отже переносьте
-              фокус на інше. Концентруйте увагу на самому процесі роботи, а не
-              на кінцевому результаті.
-            </li>
-
-            <li class="box__item">
-              Складання планів на тиждень, з них - плани на день, з урахуванням
-              пріорітетності завдань і відведення часу на відпочинок і
-              заохочення.
-            </li>
-
-            <li class="box__item">
-              Метод "Помідора" - виділяйте 25-хвилині відрізки, для плідної
-              праці, а потім нагороджуйте себе відпочинком.
-            </li>
-
-            <li class="box__item">
-              Потрібні власні заохочення. Чим краще ми оволодіваємо матеріалом -
-              тим більше отримуємо від цього задоволення.
-            </li>
-
-            <li class="box__item">
-              Напишіть ціль, повісьте на видному місці і геть прокрастинацію!
-            </li>
+      <!-- INSERT section -->
+      <section class="insert">
+        <div class="container">
+          <p class="insert-description">
+            Під час роботи над книгою нами було виділено 3 основних напрямки, які направлені на розкриття основної проблематики ефекивного
+            навчання, вчасного виконання поставлених задач та швидшого досягення цілей.
+          </p>
+          <p class="insert-description">Дані напрямки умовно розподілені по тематичним блокам з якими в можете ознайомитись далі:</p>
+          <ul class="insert-btn">
+            <li class="main-menu-item"><a href="#efficiency">Ефективність</a></li>
+            <li class="main-menu-item"><a href="#chapter-2">Проблеми</a></li>
+            <li class="main-menu-item"><a href="#recommendation">Поради</a></li>
           </ul>
         </div>
+      </section>
 
-        <div class="box-content">
-          <div class="box__img">
-            <img width="146px" height="100px" src="./img/img4.png" alt="image">
-          </div>
+      <!-- Work Mykola -->
+      <section class="section-problems" id="efficiency">
+        <div class="container">
+          <h2 class="section-title">
+            Як навчитися вирішувати будь-які завдання швидше та ефективніше?
+          </h2>
+          <section class="wrapper">
+            <img src="img/start.png" alt="Started" width="421" height="283" />
 
-          <ul class="box__list">
-            <li>
-              <h3 class="box__subtitle">&#171;Інтелектуальні снайпери&#187;</h3>
-            </li>
-
-            <li class="box__item">
-              Завжди є люди, які намагаються принизити ваші успіхи.
-            </li>
-
-            <li class="box__item">
-              Гордіться тим, хто ви є, тими якостями, що виділяють вас з натовпу.
-            </li>
-
-            <li class="box__item">
-              Критика допомагає удосконалюватися.
-            </li>
-          </ul>
-        </div>
-
-        <div class="box-content">
-          <div class="box__img">
-            <img width="146px" height="100px" src="./img/img5.png" alt="image">
-          </div>
-
-          <ul class="box__list">
-            <li>
-              <h3 class="box__subtitle">&#171;Зайва старанність, ефект установки та ілюзія компетентності&#187;
-              </h3>
-            </li>
-
-            <li class="box__item">
-              Зростаюче невдоволення та роздратування - знак, що потрібно
-              переключати увагу.
-            </li>
-
-            <li class="box__item">
-              Не дивіться на тих, хто попереду, оцініть свої сильні та слабкі
-              сторони та рухайтесь у власному ритмі.
-            </li>
-
-            <li class="box__item">
-              Робіть робочі періоди короткими, робіть перерви.
-            </li>
-
-            <li class="box__item">
-              Не будьте самовпевненим - перевірте свої результати &#40;бажано
-              після відпочинку чи переходу на інший вид діяльності&#41;.
-            </li>
-
-            <li class="box__item">
-              Невдача вчить нас краще, адже примушує переглянути підхід.
-            </li>
-
-            <li class="box__item">
-              Використовуйте спільні мозкові штурми.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <!-- Work Natali -->
-    <section class="recommendation" id="recommendation">
-      <div class="container">
-        <h2 class="section-title">Важливі поради наостанок</h2>
-        <div class="wrapper-section">
-          <div class="img-flex">
-            <img src="./img/cat.png" alt="Вторая иконка" width="100" />
-          </div>
-          <ul class="recommendation-items">
-            <li>
-              <h3 class="section-subtitle">Вчіться цінити свій талант</h3>
-            </li>
-            <li class="list-item">
-              Здатність справлятися зі складними завданнями може привести до дуже ускладненого підходу при вирішенні
-              простих завдань, що
-              мають очевидний розв'язок.
-            </li>
-            <li class="list-item">
-              Саме практика може підняти середні здібності мозку до рівня інтелектуальних можливостей людей, що
-              володіють «природним»
-              даром.
-            </li>
-            <li class="list-item">
-              Не дивіться на тих, хто попереду, оцініть свої сильні та слабкі сторони та рухайтесь у власному ритмі.
-            </li>
-          </ul>
-        </div>
-
-        <div class="wrapper-section">
-          <div class="img-flex">
-            <img src="./img/cat2.png" alt="Вторая иконка" width="100" />
-          </div>
-          <ul class="recommendation-items">
-            <li>
-              <h3 class="section-subtitle">Цініть хороших вчителів</h3>
-            </li>
-            <li class="list-item">
-              Чим більше питань по темі будете задавати, тим більше отримаєте користі.
-            </li>
-          </ul>
-        </div>
-        <div class="wrapper-section">
-          <div class="img-flex">
-            <img src="./img/cat3.png" alt="Вторая иконка" width="100" />
-          </div>
-          <ul class="recommendation-items">
-            <li>
-              <h3 class="section-subtitle">Відпочивайте</h3>
-            </li>
-            <li>
-              <p>Сон - життєво важлива частина процесу навчання. Він допомагає:</p>
-              <ul class="recommendation-sublist">
-                <li class="list-item">
-                  створити нейронні зв'язки, необхідні для нормального розумового процесу; саме тому так важливо спати
-                  перед іспитом;
+            <div class="problems-border-left">
+              <h3 class="section-subtitle">Головне - почати!</h3>
+              <ol class="problems-item">
+                <li>
+                  <p>Дивіться на навчання, як на пригоду, а не на важку працю.</p>
                 </li>
-                <li class="list-item">знаходити рішення складних завдань і бачити сенс того, що ви вивчаєте;</li>
-                <li class="list-item">
-                  закріплювати і повторювати важливі пункти матеріалу і позбавлятися від баласту.
+                <li>
+                  <p>
+                    Перед початком вивчення нового матеріалу перегляньте основні моменти. Це допоможе створити нейронні зачіпки для
+                    сприйняття, полегшить засвоєння матеріалу.
+                  </p>
                 </li>
-              </ul>
-            </li>
-          </ul>
+                <li>
+                  <p>Успіх підштовхує нас рухатися і це веде до нових успіхів.</p>
+                </li>
+              </ol>
+            </div>
+          </section>
+          <section class="wrapper">
+            <div class="problems-border-right">
+              <h3 class="section-subtitle">Чергуйте сфокусоване і розсіяне мислення</h3>
+              <ol class="problems-item">
+                <li>
+                  <p>
+                    Сфокусоване мислення - посилена зосередженість на конкретному завданні або понятті
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Розсіяне мислення - корисне для розуміння загальної картини(відбувається, коли виконуються фізичні вправи, рутинні
+                    заняття, сон-особливо фаза швидкого сну,..)
+                  </p>
+                </li>
+              </ol>
+              <h4>Важливо!</h4>
+              <p>
+                Для істотного прогресу відпочинок між періодами сфокусованого мислення зазвичай повинен тривати декілька годин, однак, не
+                повинен бути надто тривалим - інакше вже знайдені рішення вивітряться з голови до наступного сфокусованого стану. Практика
+                показує, що при вивченні нових понять краще повернутися до них не пізніше ніж через один день. Саме тому потрібно уникати
+                прокрастинації.
+              </p>
+            </div>
+            <img src="img/hackmind.png" alt="Hackmind" width="234" height="281" />
+          </section>
+          <section class="wrapper">
+            <img src="img/elephant.png" alt="Elephant" width="281" height="281" />
+            <div class="problems-border-left">
+              <h3 class="section-subtitle">Формуйте порції інформації</h3>
+              <ol class="problems-item">
+                <li>
+                  <p>
+                    Зосередитиьте увагу на інформації, яку ви хочете об'єднати в порцію,зрозумійте основну ідею
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Знайдіть метафору або порівняння (складні терміни та поннятя поясни простими зрозумілими словами)
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Накопичуйте контекст, щоб знати не тільки те, як застосовувати дану порцію інформації, але і те, в який момент її
+                    застосовувати
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Практикуйте згадування матеріалу-це набагато ефективніше перечитування
+                  </p>
+                </li>
+              </ol>
+              <h4>Примітка!</h4>
+              <p>
+                Формування порцій допомагає збільшити обсяг доступної робочої пам'яті
+              </p>
+            </div>
+          </section>
+          <section class="wrapper">
+            <div class="problems-border-right">
+              <h3>Вдосконалюйте пам'ять</h3>
+              <ol class="problems-item">
+                <li>
+                  <p>Техніка візуалізації</p>
+                  <ul>
+                    <li>
+                      Перетворюйте складне на просте і зрозуміле, вигадуй контекст(асоціації,метафори,аналогії)
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <p>Інтервальні повторення</p>
+                  <ul>
+                    <li>
+                      Повторюємо матеріал зранку та перед сном
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <p>М'язова пам'ять</p>
+                  <ul>
+                    <li>
+                      Пишіть конспекти від руки,читайте задачу вголос, дискутуйте з собою під час читання тексту
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <p>Фізичні вправи</p>
+                  <ul>
+                    <li>
+                      Регулярні фізичні вправи - це нові нейрони у ділянках, що пов'язані з пам'ятю та нові сигнальні шляхи
+                    </li>
+                  </ul>
+                </li>
+              </ol>
+            </div>
+            <img src="img/memory.png" alt="Memory" width="358" height="281" />
+          </section>
+          <section class="wrapper">
+            <img src="img/book.png" alt="Book" width="235" height="281" />
+            <div class="problems-border-right">
+              <h3>Використовуйте екзамени і тести собі на користь</h3>
+              <ol class="problems-item">
+                <li>
+                  <p>
+                    Будь-який тест сам по собі - потужний навчальний досвід. Він реорганізовує знання і додає до них нові, а також відчутно
+                    покращує здатність утримувати матеріал в пам'яті
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Метод «спочатку складне, потім просте» дозволяє мозку працювати над важкими завданнями навіть тоді, коли ви фокусуєтеся
+                    на інших, більш простих завданнях
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    В день перед іспитом не вчіть багато матеріалу, обов'язково висипайтесь.
+                  </p>
+                </li>
+              </ol>
+            </div>
+          </section>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Xmind section -->
-    <section class="xmind" id="xmind">
-      <div class="container">
-        <h2 class="section-title">Ментальна карта</h2>
-        <p>
-          Для більш детального ознайомлення з книгою <b>"Думай як математик"</b>, ми створили ментальну карту, яка в
-          повній мірі
-          відображає усі головні моменти кожного розділу книги.
-        </p>
-        <p>
-          Інформація максимально класифікована та зібрана по тематичним блокам для більшої зручності по її вивченю.
-          Головні тези та думки,
-          поради та проблеми, методи підвищення уваги та фокусовання на головну - усе це в схематичному зображенні від
-          команди FSDev
-        </p>
-        <div>
-          <a href="https://www.xmind.net/embed/WfBkNu/" target="_blank">
-            <img src="./img/xmind.jpg" class="xmind-img" alt="XMind"
-              title="Для переходу на повний масштаб карти клікни по зображеню" />
-          </a>
+      <!-- Work Dmitrij -->
+      <section class="section" id="chapter-2">
+        <div class="container">
+          <h2 class="section-title">Що заважає запустити ваш мозок на повну&#63;</h2>
+
+          <div class="box-content">
+            <div class="box__img">
+              <img width="146px" height="100px" src="./img/img3.png" alt="image" />
+            </div>
+
+            <ul class="box__list">
+              <li>
+                <h3 class="box__subtitle">Прокрастинація</h3>
+              </li>
+
+              <li class="box__item">
+                Ми прокрастинуємо відносно того, що нам не приємно,отже переносьте фокус на інше. Концентруйте увагу на самому процесі
+                роботи, а не на кінцевому результаті.
+              </li>
+
+              <li class="box__item">
+                Складання планів на тиждень, з них - плани на день, з урахуванням пріорітетності завдань і відведення часу на відпочинок і
+                заохочення.
+              </li>
+
+              <li class="box__item">
+                Метод "Помідора" - виділяйте 25-хвилині відрізки, для плідної праці, а потім нагороджуйте себе відпочинком.
+              </li>
+
+              <li class="box__item">
+                Потрібні власні заохочення. Чим краще ми оволодіваємо матеріалом - тим більше отримуємо від цього задоволення.
+              </li>
+
+              <li class="box__item">
+                Напишіть ціль, повісьте на видному місці і геть прокрастинацію!
+              </li>
+            </ul>
+          </div>
+
+          <div class="box-content">
+            <div class="box__img">
+              <img width="146px" height="100px" src="./img/img4.png" alt="image" />
+            </div>
+
+            <ul class="box__list">
+              <li>
+                <h3 class="box__subtitle">&#171;Інтелектуальні снайпери&#187;</h3>
+              </li>
+
+              <li class="box__item">
+                Завжди є люди, які намагаються принизити ваші успіхи.
+              </li>
+
+              <li class="box__item">
+                Гордіться тим, хто ви є, тими якостями, що виділяють вас з натовпу.
+              </li>
+
+              <li class="box__item">
+                Критика допомагає удосконалюватися.
+              </li>
+            </ul>
+          </div>
+
+          <div class="box-content">
+            <div class="box__img">
+              <img width="146px" height="100px" src="./img/img5.png" alt="image" />
+            </div>
+
+            <ul class="box__list">
+              <li>
+                <h3 class="box__subtitle">&#171;Зайва старанність, ефект установки та ілюзія компетентності&#187;</h3>
+              </li>
+
+              <li class="box__item">
+                Зростаюче невдоволення та роздратування - знак, що потрібно переключати увагу.
+              </li>
+
+              <li class="box__item">
+                Не дивіться на тих, хто попереду, оцініть свої сильні та слабкі сторони та рухайтесь у власному ритмі.
+              </li>
+
+              <li class="box__item">
+                Робіть робочі періоди короткими, робіть перерви.
+              </li>
+
+              <li class="box__item">
+                Не будьте самовпевненим - перевірте свої результати &#40;бажано після відпочинку чи переходу на інший вид діяльності&#41;.
+              </li>
+
+              <li class="box__item">
+                Невдача вчить нас краще, адже примушує переглянути підхід.
+              </li>
+
+              <li class="box__item">
+                Використовуйте спільні мозкові штурми.
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="button-introduction">
-          <a href="https://www.xmind.net/embed/WfBkNu/" class="btn-introduction" target="_blank" width="800">Переглянути
-            карту</a>
+      </section>
+
+      <!-- Work Natali -->
+      <section class="recommendation" id="recommendation">
+        <div class="container">
+          <h2 class="section-title">Важливі поради наостанок</h2>
+          <div class="wrapper-section">
+            <div class="img-flex">
+              <img src="./img/cat.png" alt="Вторая иконка" width="100" />
+            </div>
+            <ul class="recommendation-items">
+              <li>
+                <h3 class="section-subtitle">Вчіться цінити свій талант</h3>
+              </li>
+              <li class="list-item">
+                Здатність справлятися зі складними завданнями може привести до дуже ускладненого підходу при вирішенні простих завдань, що
+                мають очевидний розв'язок.
+              </li>
+              <li class="list-item">
+                Саме практика може підняти середні здібності мозку до рівня інтелектуальних можливостей людей, що володіють «природним»
+                даром.
+              </li>
+              <li class="list-item">
+                Не дивіться на тих, хто попереду, оцініть свої сильні та слабкі сторони та рухайтесь у власному ритмі.
+              </li>
+            </ul>
+          </div>
+
+          <div class="wrapper-section">
+            <div class="img-flex">
+              <img src="./img/cat2.png" alt="Вторая иконка" width="100" />
+            </div>
+            <ul class="recommendation-items">
+              <li>
+                <h3 class="section-subtitle">Цініть хороших вчителів</h3>
+              </li>
+              <li class="list-item">
+                Чим більше питань по темі будете задавати, тим більше отримаєте користі.
+              </li>
+            </ul>
+          </div>
+          <div class="wrapper-section">
+            <div class="img-flex">
+              <img src="./img/cat3.png" alt="Вторая иконка" width="100" />
+            </div>
+            <ul class="recommendation-items">
+              <li>
+                <h3 class="section-subtitle">Відпочивайте</h3>
+              </li>
+              <li>
+                <p>Сон - життєво важлива частина процесу навчання. Він допомагає:</p>
+                <ul class="recommendation-sublist">
+                  <li class="list-item">
+                    створити нейронні зв'язки, необхідні для нормального розумового процесу; саме тому так важливо спати перед іспитом;
+                  </li>
+                  <li class="list-item">знаходити рішення складних завдань і бачити сенс того, що ви вивчаєте;</li>
+                  <li class="list-item">
+                    закріплювати і повторювати важливі пункти матеріалу і позбавлятися від баласту.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="video-section" id="video-section">
-      <div class="container">
-        <h2 class="section-title">Відео-резюме</h2>
-        <div class="video">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Y2FEm0Qvb4k" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-          <ul class="ending">
-            <li>Дякуємо за увагу</li>
-            <li>Якщо ви це прочитали, ви вже на крок ближче до цілі</li>
-            <li>Команда FSDev щиро бажає вам успіхів у навчанні!</li>
-          </ul>
+      <!-- Xmind section -->
+      <section class="xmind" id="xmind">
+        <div class="container">
+          <h2 class="section-title">Ментальна карта</h2>
+          <p>
+            Для більш детального ознайомлення з книгою <b>"Думай як математик"</b>, ми створили ментальну карту, яка в повній мірі
+            відображає усі головні моменти кожного розділу книги.
+          </p>
+          <p>
+            Інформація максимально класифікована та зібрана по тематичним блокам для більшої зручності по її вивченю. Головні тези та думки,
+            поради та проблеми, методи підвищення уваги та фокусовання на головну - усе це в схематичному зображенні від команди FSDev
+          </p>
+          <div>
+            <a href="https://www.xmind.net/embed/WfBkNu/" target="_blank">
+              <img src="./img/xmind.jpg" class="xmind-img" alt="XMind" title="Для переходу на повний масштаб карти клікни по зображеню" />
+            </a>
+          </div>
+          <div class="button-introduction">
+            <a href="https://www.xmind.net/embed/WfBkNu/" class="btn-introduction" target="_blank" width="800">Переглянути карту</a>
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
+        <p class="line"></p>
+        <ul class="ending">
+          <li>Дякуємо за увагу</li>
+          <li>Якщо ви це прочитали, ви вже на крок ближче до цілі</li>
+          <li>Команда FSDev щиро бажає вам успіхів у навчанні!</li>
+        </ul>
+      </section>
+    </main>
 
-  <!-- procrastination container -->
-  <!-- <section class="procrastination" id="procrastination">
+    <!-- procrastination container -->
+    <!-- <section class="procrastination" id="procrastination">
         <div class="container">
           <h2 class="section-title">Прокрастинація</h2>
           <div class="wrapper">
@@ -543,13 +510,12 @@
         </div>
       </section> -->
 
-  <!-- FOOTER container -->
-  <footer class="footer">
-    <ul class="container">
-      <li>© FSDev - ми крутіші, ніж здається!</li>
-      <li>2020 рік</li>
-    </ul>
-  </footer>
-</body>
-
+    <!-- FOOTER container -->
+    <footer class="footer">
+      <ul class="container">
+        <li>© FSDev - ми крутіші, ніж здається!</li>
+        <li>2020 рік</li>
+      </ul>
+    </footer>
+  </body>
 </html>
