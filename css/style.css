@@ -49,12 +49,7 @@ ul li {
 .header-conteiner {
   background: rgba(77, 189, 254, 1);
   background: -moz-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(62, 160, 230, 1) 100%);
-  background: -webkit-gradient(
-    left top,
-    right bottom,
-    color-stop(0%, rgba(77, 189, 254, 1)),
-    color-stop(100%, rgba(62, 160, 230, 1))
-  );
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77, 189, 254, 1)), color-stop(100%, rgba(62, 160, 230, 1)));
   background: -webkit-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(62, 160, 230, 1) 100%);
   background: -o-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(62, 160, 230, 1) 100%);
   background: -ms-linear-gradient(-45deg, rgba(77, 189, 254, 1) 0%, rgba(62, 160, 230, 1) 100%);
@@ -72,10 +67,6 @@ ul li {
 
 .logo {
   max-width: 100%;
-}
-
-.header-burger {
-  display: none;
 }
 
 .main-nav-items {
@@ -105,11 +96,6 @@ p {
 .wrapper {
   display: flex;
   justify-content: space-between;
-}
-
-.wrapper-section, .box-content {
-  display: flex;
-  margin-top: 30px;
 }
 
 .description {
@@ -156,6 +142,12 @@ p {
 }
 
 /* MAIN container */
+.wrapper-section
+.box-content {
+  display: flex;
+  margin-top: 30px;
+}
+
 .section-title {
   font-size: 30px;
   font-weight: 700;
@@ -203,6 +195,78 @@ p {
   background: #d6b223;
 }
 
+.recommendation {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #ecf3f8;
+}
+
+.section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: url(../img/bg1.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+.section-subtitle
+.box__subtitle {
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: leftr;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.img-flex
+.box__img {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.list-item
+.box__item {
+  list-style: circle;
+  margin-bottom: 7px;
+  margin-left: 15px;
+}
+.recommendation-sublist > li {
+  margin-left: 50px;
+}
+
+.xmind {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.xmind-img {
+  display: block;
+  margin: 50px auto;
+  border: 1px solid rgb(179, 179, 179);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.video-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-image: url(../img/bg.png);
+  background-size: cover;
+}
+
+.video {
+  margin-top: 50px;
+  margin: 0 auto;
+  width: 570px;
+}
+
+.ending {
+  text-align: center;
+  margin-top: 40px;
+  color: grey;
+  font-size: 14px;
+}
+
 .procrastination {
   background: #ecf3f8;
   padding-top: 70px;
@@ -221,69 +285,6 @@ p {
 
 .procrastination-item h3 {
   margin-bottom: 15px;
-}
-
-.xmind {
-  padding-top: 70px;
-  padding-bottom: 70px;
-}
-
-.xmind-list {
-  margin-top: 50px;
-  text-align: center;
-}
-
-.xmind2 {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  background-image: url(../img/bg.png);
-  background-size: cover;
-}
-
-.video {
-  margin-top: 50px;
-  margin: 0 auto;
-  width: 570px;
-}
-.section {
-  width: 100%;
-  height: 130vh;
-  padding: 70px 0;
-  background: url(../img/bg1.jpg) no-repeat center top;
-  background-size: cover;
-}
-
-.recommendation {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  background: #ecf3f8;
-}
-
-.section-subtitle
-.box__subtitle {
-  box-sizing: border-box;
-  font-size: 18px;
-  font-weight: 500;
-  text-align: leftr;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-}
-
-.img-flex,
-.box__img {
-  display: flex;
-  align-items: center;
-  margin-right: 50px;
-}
-
-.list-item
-.box__item{
-  list-style: circle;
-  margin-bottom: 7px;
-  margin-left: 15px;
-}
-.recommendation-sublist > li {
-  margin-left: 50px;
 }
 
 .footer {
@@ -367,6 +368,10 @@ p {
   .section-title {
     margin-bottom: 40px;
   }
+
+  .xmind-img {
+    width: 100%;
+  }
 }
 
 /* 576px - 768px */
@@ -400,5 +405,25 @@ p {
   }
   .btn-form {
     width: 100%;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .wrapper-section {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .introduction-img2,
+  .introduction-img {
+    width: 70%;
+    height: 70%;
+    margin: 0 0;
+  }
+
+  .main-nav-items {
+    flex-wrap: wrap;
   }
 }
