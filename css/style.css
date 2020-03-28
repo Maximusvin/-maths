@@ -426,4 +426,23 @@ p {
   .main-nav-items {
     flex-wrap: wrap;
   }
+
+}
+.section-problems {
+  background-color: #fdfcd3;
+  margin-top: 50;
+}
+
+.problems-border-left {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+.problems-border-right {
+  margin-top: 5px;
+  margin-right: 50px;
+}
+
+.margin-wrapper {
+  padding-top: 100;
 }
