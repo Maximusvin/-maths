@@ -522,4 +522,7 @@ p {
   .main-nav-items {
     flex-wrap: wrap;
   }
+  .insert-btn {
+    flex-wrap: wrap;
+  }
 }
