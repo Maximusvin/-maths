@@ -403,13 +403,13 @@ p {
   }
 
   .img-flex,
-  .boximg {
+  .box__img {
     margin-right: 0;
     justify-content: center;
   }
 
   .list-item,
-  .boxitem,
+  .box__item,
   .recommendation-items {
     text-align: left;
   }
