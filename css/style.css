@@ -50,9 +50,6 @@ figure {
   display: block; /* Блочный элемент */
   margin: 45px auto; /* Отступы */
   text-align: center; /* Выравнивание по центру */
-  width: 50%;
-  border: 1px solid #000;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 /* HEAD container */
@@ -230,6 +227,8 @@ p {
 
 .problems-item {
   margin-left: 15px;
+  margin-bottom: 7px;
+  text-align: left;
 }
 
 .margin-wrapper {
@@ -242,7 +241,8 @@ p {
   padding-right: 20px;
   background: rgb(248, 236, 221);
   padding-top: 25px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
+  margin-top: 25px;
 }
 
 .quote-title {
